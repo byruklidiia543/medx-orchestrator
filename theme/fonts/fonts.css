@@ -1,0 +1,16 @@
+/* MedX theme — font stack (swap in @font-face rules when custom files are added) */
+
+:root {
+  --medx-font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --medx-font-mono: "JetBrains Mono", ui-monospace, monospace;
+}
+
+body {
+  font-family: var(--medx-font-sans);
+}
+
+code,
+pre,
+.medx-font-mono {
+  font-family: var(--medx-font-mono);
+}
