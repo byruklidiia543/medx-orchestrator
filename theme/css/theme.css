@@ -1,0 +1,18 @@
+/* MedX theme — shared CSS tokens and helpers */
+
+:root {
+  --medx-glow-cyan: rgba(0, 229, 255, 0.5);
+  --medx-glow-purple: rgba(157, 0, 255, 0.5);
+  --medx-glass-bg: rgba(18, 18, 24, 0.7);
+}
+
+.medx-theme-surface {
+  background: var(--medx-glass-bg);
+  border: 1px solid hsl(var(--border) / 0.4);
+  border-radius: var(--radius);
+}
+
+.medx-theme-accent {
+  color: hsl(var(--primary));
+  text-shadow: 0 0 8px var(--medx-glow-cyan);
+}
