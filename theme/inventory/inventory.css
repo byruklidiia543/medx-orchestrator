@@ -1,0 +1,19 @@
+/* MedX theme — inventory list and modal styling */
+
+.medx-inventory-row {
+  transition: background-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.medx-inventory-row:hover {
+  background: hsl(var(--muted) / 0.4);
+  box-shadow: inset 2px 0 0 hsl(var(--primary));
+}
+
+.medx-inventory-status-low {
+  color: hsl(var(--destructive));
+  font-weight: 600;
+}
+
+.medx-inventory-status-ok {
+  color: hsl(var(--accent));
+}
